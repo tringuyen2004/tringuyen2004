@@ -58,7 +58,7 @@ def getSystemInfo():
         f"**Top Processes by Memory Usage**:\n{top_processes}"
     )
 
-    return message  # Return the message as a string
+    return message 
 
 def sendtoDiscord(webhook_url, message):
     data = {"content": message}
