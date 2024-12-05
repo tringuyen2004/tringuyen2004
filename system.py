@@ -70,7 +70,7 @@ def sendtoDiscord(webhook_url, message):
 
 if __name__ == "__main__":
     # Set your Discord webhook URL here
-    discordwebhook = "https://discord.com/api/webhooks/1314208483226288159/h5qvJEUNGFIraUyjGjCPmAZAbqLiiYW-b5FiBN2tNEVqpmPimU0SihZJhls5Y3uG-wT6"
+    discordwebhook = "Discord Webhook goes here"
 
     # Check system health and send to Discord
     system_info = getSystemInfo()
